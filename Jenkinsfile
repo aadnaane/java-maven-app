@@ -6,17 +6,17 @@ pipeline {
         echo ("building the app")
       }
     }
-    tage("test") {
+    stage("test") {
       steps {
         echo ("testing the app")
       }
     }
-    tage("deploy") {
+    stage("deploy") {
       steps {
         echo ("deploying the app")
       }
     }
-    tage("publish") {
+    stage("publish") {
       steps {
         echo ("publishing the app")
       }
