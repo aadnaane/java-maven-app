@@ -2,22 +2,22 @@ pipeline {
   agent any
   stages {
     stage("build") {
-      step {
+      steps {
         echo ("building the app")
       }
     }
     tage("test") {
-      step {
+      steps {
         echo ("testing the app")
       }
     }
     tage("deploy") {
-      step {
+      steps {
         echo ("deploying the app")
       }
     }
     tage("publish") {
-      step {
+      steps {
         echo ("publishing the app")
       }
     }
